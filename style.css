@@ -34,30 +34,8 @@ h1.imgcinema {
 @media (max-width: 880px) {
     h1.imgcinema {
         font-size: 30px;
+        margin: auto;
         width: 170px; 
-    }
-}
-
-/* Tamanho da tela para dispositivos móveis */
-@media (max-width: 700px) {
-    main {
-        flex-direction: column;
-    }
-
-    h1.imgcinema {
-        font-size: 30px;
-    }
-
-    h1#titulo {
-        font-size: 20px;
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 0.8em;
     }
 }
 
@@ -85,10 +63,12 @@ div {
 }
 
 h1.tabela {
+    margin-right: 20px;
     margin-bottom: 10px;
     color: #ffffff;
 }
 
+/* Configurações da tabela */
 table {
     margin: auto;
 }
@@ -109,6 +89,7 @@ td.preco {
     color: #ffffff;
 }
 
+/* Configurações de textos e parágrafos */
 p {
     color: #ffffff;
 }
@@ -130,4 +111,28 @@ p.texto3 {
     align-self: flex-start;
     line-height: 30px;
     margin: 0px 0px 0px 20px;
+}
+
+/* Tamanho da tela para dispositivos móveis */
+@media (max-width: 700px) {
+    main {
+        flex-direction: column;
+    }
+
+    h1.imgcinema {
+        font-size: 30px;
+        margin: auto;
+    }
+
+    h1#titulo {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
 }
