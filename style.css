@@ -38,9 +38,18 @@ h1.imgcinema {
     }
 }
 
+/* Tamanho da tela para dispositivos móveis */
 @media (max-width: 700px) {
+    main {
+        flex-direction: column;
+    }
+
+    h1.imgcinema {
+        font-size: 40px;
+    }
+
     h1#titulo {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     h1 {
