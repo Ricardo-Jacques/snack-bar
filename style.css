@@ -106,14 +106,15 @@ p.texto2 {
     margin: 0px 0px 10px 20px;
 }
 
-p.texto3 {
+ul {
+    color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     align-self: flex-start;
     line-height: 30px;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 40px;
 }
 
-/* Tamanho da tela para dispositivos móveis */
+/* Configurações da página para dispositivos móveis */
 @media (max-width: 700px) {
     main {
         flex-direction: column;
